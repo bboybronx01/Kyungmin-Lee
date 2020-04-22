@@ -1,14 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>keep it up, keep moving</title>
-    
-    <link rel="style4sheet" type="text/css" href="style4.css">
-    
-  </head>
-  <body>
-    <h1 id ="top">
-      You have chosen prudently. Your story continues.
-    </h1>
-  </body>
-</html>
+#top {
+  font-family: fantasy;
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  color: Orange;
+}
+
+h2 {
+  font-family: monospace;
+}
+
+.attribution{
+  font-size:20%;
+}
+
+.conversation {
+  color: #58017f;
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 150%;
+}
+a:visited{
+  color: #888888;
+}
